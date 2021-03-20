@@ -15,14 +15,14 @@ else
 gg.alert("인증에 성공했습니다.")
 end
 
-gg.alert(os.date([[시노노메 박사 V.10.3.0
+gg.alert(os.date([[박사 치트 V.10.3.0
 
 - 온라인 서버에서 지속적으로 업데이트 됩니다.
 - 오류 전달은 냥코레인저스 갤러리로 부탁드립니다.]]))
 
 gg.alert([[※ 긴급 패치 ※
 
-간헐적으로 Restart가 뜨는 오류를 고쳤습니다.]])
+- 간헐적으로 Restart가 뜨는 오류를 고쳤습니다.]])
 
 HOMEDM = 1
 function Main()
