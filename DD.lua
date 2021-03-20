@@ -148,7 +148,7 @@ gg.clearResults()
 gg.searchNumber("9;0;10;0;11;0;12;0::29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
-local t = gg.getResults(7)
+local t = gg.getResults(70)
 gg.addListItems(t)
 local t3 = {}
 for i, v in ipairs(t) do
