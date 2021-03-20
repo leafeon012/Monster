@@ -22,7 +22,8 @@ gg.alert(os.date([[박사 치트 V.10.3.0
 
 gg.alert([[2021.3.20 업데이트
 
-- 레어 뽑기 확률 조작 기능이 추가되었습니다.]])
+- 레어 뽑기 확률 조작 기능이 추가되었습니다.
+- 아이템 개수 조작에 고양이 드링크가 추가되었습니다.]])
 
 
 function Main()
@@ -119,6 +120,12 @@ for i, v in ipairs(t) do
 	table.insert(t3, {address=v.address+0x90E21C,flags=gg.TYPE_DWORD,value=0,freeze=false})
 	table.insert(t3, {address=v.address+0x90E220,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
 	table.insert(t3, {address=v.address+0x90E224,flags=gg.TYPE_DWORD,value=0,freeze=false})
+        table.insert(t3, {address=v.address+0xB1ED4C,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0xB1ED50,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0xB1ED54,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0xB1ED58,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0xB1ED5C,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0xB1ED60,flags=gg.TYPE_DWORD,value=0,freeze=false})
 end
 gg.addListItems(t3)
 revert = gg.getListItems()
