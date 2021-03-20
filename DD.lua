@@ -20,11 +20,9 @@ gg.alert(os.date([[박사 치트 V.10.3.0
 - 온라인 서버에서 지속적으로 업데이트 됩니다.
 - 오류 전달은 냥코레인저스 갤러리로 부탁드립니다.]]))
 
-gg.alert([[2021.3.20 업데이트
+gg.alert([[2021.3.21 업데이트
 
-- 레어 뽑기 확률 조작 기능이 추가되었습니다.
-- 아이템 개수 조작에 고양이 드링크가 추가되었습니다.
-- 개다래 개수 조작 기능이 추가되었습니다.]])
+- 스토리 모드 올클리어 기능이 추가되었습니다.]])
 
 
 function Main()
@@ -34,6 +32,7 @@ local menu= gg.choice({
 "통조림 개수 조작",
 "아이템 개수 조작",
 "개다래 개수 조작",
+"스토리 모드 올클리어",
 "전투 즉시 승리",
 "스크립트 종료"}, nil, ([[현재 최신버전입니다.]]))
 if menu == 1 then MENU2() end
@@ -41,8 +40,9 @@ if menu == 2 then T1() end
 if menu == 3 then T2() end
 if menu == 4 then T3() end
 if menu == 5 then Apple() end
-if menu == 6 then T4() end
-if menu == 7 then T5() end
+if menu == 6 then All() end
+if menu == 7 then T4() end
+if menu == 8 then T5() end
 HOMEDM=-1
 end
 
@@ -174,6 +174,34 @@ gg.setValues(t3)
 gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
+end
+
+function All()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("1,179,403,647;65,793;196,611;1;52;9,448,224;2,097,204;2,621,448;1,835,037:49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1,179,403,647", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+local t = gg.getResults(7)
+gg.addListItems(t)
+local t3 = {}
+for i, v in ipairs(t) do
+table.insert(t3, {address=v.address+0x90A288,flags=gg.TYPE_DWORD,value=48,freeze=false})
+table.insert(t3, {address=v.address+0x90A28C,flags=gg.TYPE_DWORD,value=48,freeze=false})
+table.insert(t3, {address=v.address+0x90A290,flags=gg.TYPE_DWORD,value=48,freeze=false})
+table.insert(t3, {address=v.address+0x90A294,flags=gg.TYPE_DWORD,value=48,freeze=false})
+table.insert(t3, {address=v.address+0x90A298,flags=gg.TYPE_DWORD,value=48,freeze=false})
+table.insert(t3, {address=v.address+0x90A29C,flags=gg.TYPE_DWORD,value=48,freeze=false})
+table.insert(t3, {address=v.address+0x90A2A0,flags=gg.TYPE_DWORD,value=48,freeze=false})
+table.insert(t3, {address=v.address+0x90A2A4,flags=gg.TYPE_DWORD,value=48,freeze=false})
+table.insert(t3, {address=v.address+0x90A2A8,flags=gg.TYPE_DWORD,value=48,freeze=false})
+table.insert(t3, {address=v.address+0x90A2AC,flags=gg.TYPE_DWORD,value=0,freeze=false})
+table.insert(t3, {address=v.address+0x90A2B0,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(t3)
+revert = gg.getListItems()
+gg.setValues(t3)
+gg.toast("적용이 완료되었습니다.")
 end
 
 function T4()
