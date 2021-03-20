@@ -23,7 +23,8 @@ gg.alert(os.date([[박사 치트 V.10.3.0
 gg.alert([[2021.3.20 업데이트
 
 - 레어 뽑기 확률 조작 기능이 추가되었습니다.
-- 아이템 개수 조작에 고양이 드링크가 추가되었습니다.]])
+- 아이템 개수 조작에 고양이 드링크가 추가되었습니다.
+- 개다래 개수 조작 기능이 추가되었습니다.]])
 
 
 function Main()
@@ -32,14 +33,16 @@ local menu= gg.choice({
 "XP 개수 조작",
 "통조림 개수 조작",
 "아이템 개수 조작",
+"개다래 개수 조작",
 "전투 즉시 승리",
 "스크립트 종료"}, nil, ([[현재 최신버전입니다.]]))
 if menu == 1 then MENU2() end
 if menu == 2 then T1() end
 if menu == 3 then T2() end
 if menu == 4 then T3() end
-if menu == 5 then T4() end
-if menu == 6 then T5() end
+if menu == 5 then Apple() end
+if menu == 6 then T4() end
+if menu == 7 then T5() end
 HOMEDM=-1
 end
 
@@ -126,6 +129,44 @@ for i, v in ipairs(t) do
 	table.insert(t3, {address=v.address+0xB1ED58,flags=gg.TYPE_DWORD,value=0,freeze=false})
 	table.insert(t3, {address=v.address+0xB1ED5C,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
 	table.insert(t3, {address=v.address+0xB1ED60,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(t3)
+revert = gg.getListItems()
+gg.setValues(t3)
+gg.processResume()
+gg.toast("적용이 완료되었습니다.")
+end
+end
+
+function Apple()
+harpp = gg.prompt({'원하는 수치를 입력해주세요 (8개 미만으로)'}, nil, {'number'})
+if harpp == nil then
+else
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("9;0;10;0;11;0;12;0::29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local t = gg.getResults(7)
+gg.addListItems(t)
+local t3 = {}
+for i, v in ipairs(t) do
+	table.insert(t3, {address=v.address-0x44,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address-0x3C,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address-0x34,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address-0x2C,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address-0x24,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address-0x1C,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address-0x14,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address-0xC,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address-0x4,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0x4,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0xC,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0x2C,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
 end
 gg.addListItems(t3)
 revert = gg.getListItems()
