@@ -23,7 +23,9 @@ gg.alert(os.date([[박사 치트 V.10.3.0
 gg.alert([[2021.3.21 업데이트
 
 - 스토리 모드 올클리어 기능이 추가되었습니다.
-- 콜라보 뽑기 확률 조작 기능이 추가되었습니다.]])
+- 콜라보 뽑기 확률 조작 기능이 추가되었습니다.
+- 냥코 클럽 시간 조작 기능이 추가되었습니다.
+- 티켓 개수 조작 기능이 추가되었습니다.]])
 
 
 function Main()
@@ -35,6 +37,8 @@ local menu= gg.choice({
 "아이템 개수 조작",
 "개다래 개수 조작",
 "스토리 모드 올클리어",
+"냥코 클럽 시간 조작",
+"티켓 개수 조작",
 "전투 즉시 승리",
 "스크립트 종료"}, nil, ([[현재 최신버전입니다.]]))
 if menu == 1 then MENU2() end
@@ -44,8 +48,10 @@ if menu == 4 then T2() end
 if menu == 5 then T3() end
 if menu == 6 then Apple() end
 if menu == 7 then All() end
-if menu == 8 then T4() end
-if menu == 9 then T5() end
+if menu == 8 then Club() end
+if menu == 9 then Ticket() end
+if menu == 10 then T4() end
+if menu == 11 then T5() end
 HOMEDM=-1
 end
 
@@ -198,13 +204,64 @@ table.insert(t3, {address=v.address+0x90A29C,flags=gg.TYPE_DWORD,value=48,freeze
 table.insert(t3, {address=v.address+0x90A2A0,flags=gg.TYPE_DWORD,value=48,freeze=false})
 table.insert(t3, {address=v.address+0x90A2A4,flags=gg.TYPE_DWORD,value=48,freeze=false})
 table.insert(t3, {address=v.address+0x90A2A8,flags=gg.TYPE_DWORD,value=48,freeze=false})
-table.insert(t3, {address=v.address+0x90A2AC,flags=gg.TYPE_DWORD,value=48,freeze=false})
+table.insert(t3, {address=v.address+0x90A2AC,flags=gg.TYPE_DWORD,value=0,freeze=false})
 table.insert(t3, {address=v.address+0x90A2B0,flags=gg.TYPE_DWORD,value=0,freeze=false})
 end
 gg.addListItems(t3)
 revert = gg.getListItems()
 gg.setValues(t3)
 gg.toast("적용이 완료되었습니다.")
+end
+
+function Club()
+harpp = gg.prompt({'원하는 수치를 입력해주세요 (5분 = 10000)'}, nil, {'number'})
+if harpp == nil then
+else
+gg.setRanges(gg.REGION_CODE_APP)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("1,179,403,647;65,793;196,611;1;52;9,448,224;2,097,204;2,621,448;1,835,037:49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1,179,403,647", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local t = gg.getResults(7)
+gg.addListItems(t)
+local t3 = {}
+for i, v in ipairs(t) do
+	table.insert(t3, {address=v.address+0xAEA95C,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+end
+gg.addListItems(t3)
+revert = gg.getListItems()
+gg.setValues(t3)
+gg.processResume()
+gg.toast("적용이 완료되었습니다.")
+end
+end
+
+function Ticket()
+harpp = gg.prompt({'원하는 수치를 입력해주세요 (999개 미만으로)'}, nil, {'number'})
+if harpp == nil then
+else
+gg.setRanges(gg.REGION_CODE_APP)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("1,179,403,647;65,793;196,611;1;52;9,448,224;2,097,204;2,621,448;1,835,037:49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1,179,403,647", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local t = gg.getResults(7)
+gg.addListItems(t)
+local t3 = {}
+for i, v in ipairs(t) do
+	table.insert(t3, {address=v.address+0xA99078,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0xA9907C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0xA99080,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0xA99084,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(t3)
+revert = gg.getListItems()
+gg.setValues(t3)
+gg.processResume()
+gg.toast("적용이 완료되었습니다.")
+end
 end
 
 function T4()
@@ -240,7 +297,7 @@ menu1= gg.choice({
 "Only Ultra Super Rare",
 "Only Legend Rare",
 "메인 메뉴로 이동"}, nil, ([[레전드레어가 없는 시리즈에서 Only Legend Rare 기능을 사용하면 고양이만 나옵니다.
-현재 일정은 [ 하이퍼 고양이 축제 ]입니다.]]))
+현재 일정은 [ 하이퍼 고양이 축제 ] 입니다.]]))
 if menu1 == 1 then P1() end
 if menu1 == 2 then P2() end
 if menu1 == 3 then P3() end
@@ -356,7 +413,7 @@ menu1= gg.choice({
 "Only Ultra Super Rare",
 "Only Legend Rare",
 "메인 메뉴로 이동"}, nil, ([[레전드레어가 없는 시리즈에서 Only Legend Rare 기능을 사용하면 고양이만 나옵니다.
-현재 일정은 [ 하츠네 미쿠 2021 ]입니다.]]))
+현재 일정은 [ 하츠네 미쿠 2021 ] 입니다.]]))
 if menu1 == 1 then K1() end
 if menu1 == 2 then K2() end
 if menu1 == 3 then K3() end
@@ -474,3 +531,4 @@ if HOMEDM == 1 then
 Main()
 end
 end
+
