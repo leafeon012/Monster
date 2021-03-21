@@ -297,6 +297,7 @@ gg.setValues(p3)
 gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
+
 function P3()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.clearList()
