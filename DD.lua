@@ -270,28 +270,6 @@ gg.addListItems(p3)
 revert = gg.getListItems()
 gg.setValues(p3)
 gg.processResume()
-
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.clearList()
-gg.clearResults()
-gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.processPause()
-local t = gg.getResults(7)
-gg.addListItems(t)
-local t3 = {}
-for i, v in ipairs(t) do
-	table.insert(t3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=10000,freeze=false})
-            table.insert(t3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
-             table.insert(t3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
-end
-gg.addListItems(t3)
-revert = gg.getListItems()
-gg.setValues(t3)
-gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
 
@@ -317,28 +295,6 @@ gg.addListItems(p3)
 revert = gg.getListItems()
 gg.setValues(p3)
 gg.processResume()
-
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.clearList()
-gg.clearResults()
-gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.processPause()
-local t = gg.getResults(7)
-gg.addListItems(t)
-local t3 = {}
-for i, v in ipairs(t) do
-	table.insert(t3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
-            table.insert(t3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=10000,freeze=false})
-	table.insert(t3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
-             table.insert(t3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
-end
-gg.addListItems(t3)
-revert = gg.getListItems()
-gg.setValues(t3)
-gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
 function P3()
@@ -362,29 +318,6 @@ end
 gg.addListItems(p3)
 revert = gg.getListItems()
 gg.setValues(p3)
-gg.processResume()
-end
-
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.clearList()
-gg.clearResults()
-gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.processPause()
-local t = gg.getResults(7)
-gg.addListItems(t)
-local t3 = {}
-for i, v in ipairs(t) do
-	table.insert(t3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
-            table.insert(t3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=10000,freeze=false})
-             table.insert(t3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
-end
-gg.addListItems(t3)
-revert = gg.getListItems()
-gg.setValues(t3)
 gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
@@ -410,28 +343,6 @@ end
 gg.addListItems(p3)
 revert = gg.getListItems()
 gg.setValues(p3)
-gg.processResume()
-
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.clearList()
-gg.clearResults()
-gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.processPause()
-local t = gg.getResults(7)
-gg.addListItems(t)
-local t3 = {}
-for i, v in ipairs(t) do
-	table.insert(t3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
-            table.insert(t3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
-             table.insert(t3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=10000,freeze=false})
-	table.insert(t3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
-end
-gg.addListItems(t3)
-revert = gg.getListItems()
-gg.setValues(t3)
 gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
