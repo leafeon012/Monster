@@ -22,7 +22,8 @@ gg.alert(os.date([[박사 치트 V.10.3.0
 
 gg.alert([[2021.3.21 업데이트
 
-- 스토리 모드 올클리어 기능이 추가되었습니다.]])
+- 스토리 모드 올클리어 기능이 추가되었습니다.
+- 콜라보 뽑기 확률 조작 기능이 추가되었습니다.]])
 
 
 function Main()
@@ -237,7 +238,8 @@ menu1= gg.choice({
 "Only Ultra Super Rare",
 "Only Legend Rare",
 "메인 메뉴로 이동"}, nil, ([[레전드레어가 없는 시리즈에서 Only Legend Rare 기능을 사용하면 고양이만 나옵니다.
-현재 일정은 [ 하이퍼 고양이 ] 축제입니다.]]))
+현재 일정은 [ 하이퍼 고양이 축제 ]입니다.
+현재 일정은 [ 하츠네 미쿠 콜라보 ] 입니다.]]))
 if menu1 == 1 then P1() end
 if menu1 == 2 then P2() end
 if menu1 == 3 then P3() end
@@ -251,6 +253,28 @@ gg.setRanges(gg.REGION_ANONYMOUS)
 gg.clearList()
 gg.clearResults()
 gg.searchNumber("542;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local t = gg.getResults(7)
+gg.addListItems(t)
+local t3 = {}
+for i, v in ipairs(t) do
+	table.insert(t3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+            table.insert(t3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+             table.insert(t3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(t3)
+revert = gg.getListItems()
+gg.setValues(t3)
+gg.processResume()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local t = gg.getResults(7)
@@ -293,6 +317,28 @@ gg.addListItems(t3)
 revert = gg.getListItems()
 gg.setValues(t3)
 gg.processResume()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local t = gg.getResults(7)
+gg.addListItems(t)
+local t3 = {}
+for i, v in ipairs(t) do
+	table.insert(t3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
+            table.insert(t3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+	table.insert(t3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+             table.insert(t3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(t3)
+revert = gg.getListItems()
+gg.setValues(t3)
+gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
 function P3()
@@ -300,6 +346,28 @@ gg.setRanges(gg.REGION_ANONYMOUS)
 gg.clearList()
 gg.clearResults()
 gg.searchNumber("542;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local t = gg.getResults(7)
+gg.addListItems(t)
+local t3 = {}
+for i, v in ipairs(t) do
+	table.insert(t3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
+            table.insert(t3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+             table.insert(t3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(t3)
+revert = gg.getListItems()
+gg.setValues(t3)
+gg.processResume()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local t = gg.getResults(7)
@@ -325,6 +393,28 @@ gg.setRanges(gg.REGION_ANONYMOUS)
 gg.clearList()
 gg.clearResults()
 gg.searchNumber("542;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local t = gg.getResults(7)
+gg.addListItems(t)
+local t3 = {}
+for i, v in ipairs(t) do
+	table.insert(t3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
+            table.insert(t3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+             table.insert(t3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+	table.insert(t3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(t3)
+revert = gg.getListItems()
+gg.setValues(t3)
+gg.processResume()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local t = gg.getResults(7)
