@@ -29,6 +29,7 @@ gg.alert([[2021.3.21 업데이트
 function Main()
 local menu= gg.choice({
 "[ 메뉴 ] 레어뽑기 확률 조작",
+"[ 메뉴 ] 콜라보뽑기 확률 조작",
 "XP 개수 조작",
 "통조림 개수 조작",
 "아이템 개수 조작",
@@ -37,13 +38,14 @@ local menu= gg.choice({
 "전투 즉시 승리",
 "스크립트 종료"}, nil, ([[현재 최신버전입니다.]]))
 if menu == 1 then MENU2() end
-if menu == 2 then T1() end
-if menu == 3 then T2() end
-if menu == 4 then T3() end
-if menu == 5 then Apple() end
-if menu == 6 then All() end
-if menu == 7 then T4() end
-if menu == 8 then T5() end
+if menu == 2 then MENU3() end
+if menu == 3 then T1() end
+if menu == 4 then T2() end
+if menu == 5 then T3() end
+if menu == 6 then Apple() end
+if menu == 7 then All() end
+if menu == 8 then T4() end
+if menu == 9 then T5() end
 HOMEDM=-1
 end
 
@@ -238,8 +240,7 @@ menu1= gg.choice({
 "Only Ultra Super Rare",
 "Only Legend Rare",
 "메인 메뉴로 이동"}, nil, ([[레전드레어가 없는 시리즈에서 Only Legend Rare 기능을 사용하면 고양이만 나옵니다.
-현재 일정은 [ 하이퍼 고양이 축제 ]입니다.
-현재 일정은 [ 하츠네 미쿠 콜라보 ] 입니다.]]))
+현재 일정은 [ 하이퍼 고양이 축제 ]입니다.]]))
 if menu1 == 1 then P1() end
 if menu1 == 2 then P2() end
 if menu1 == 3 then P3() end
@@ -344,6 +345,122 @@ end
 gg.addListItems(p3)
 revert = gg.getListItems()
 gg.setValues(p3)
+gg.processResume()
+gg.toast("적용이 완료되었습니다.")
+end
+
+function MENU3()
+menu1= gg.choice({
+"Only Rare",
+"Only Super Rare",
+"Only Ultra Super Rare",
+"Only Legend Rare",
+"메인 메뉴로 이동"}, nil, ([[레전드레어가 없는 시리즈에서 Only Legend Rare 기능을 사용하면 고양이만 나옵니다.
+현재 일정은 [ 하츠네 미쿠 2021 ]입니다.]]))
+if menu1 == 1 then K1() end
+if menu1 == 2 then K2() end
+if menu1 == 3 then K3() end
+if menu1 == 4 then K4() end
+if menu1 == 5 then Main() end
+HOMEDM=-1
+end
+
+function K1()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local t = gg.getResults(7)
+gg.addListItems(t)
+local t3 = {}
+for i, v in ipairs(t) do
+	table.insert(t3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+            table.insert(t3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+             table.insert(t3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(t3)
+revert = gg.getListItems()
+gg.setValues(t3)
+gg.processResume()
+gg.toast("적용이 완료되었습니다.")
+end
+
+function K2()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local t = gg.getResults(7)
+gg.addListItems(t)
+local t3 = {}
+for i, v in ipairs(t) do
+	table.insert(t3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
+            table.insert(t3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+	table.insert(t3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+             table.insert(t3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(t3)
+revert = gg.getListItems()
+gg.setValues(t3)
+gg.processResume()
+gg.toast("적용이 완료되었습니다.")
+end
+
+function K3()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local t = gg.getResults(7)
+gg.addListItems(t)
+local t3 = {}
+for i, v in ipairs(t) do
+	table.insert(t3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
+            table.insert(t3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+             table.insert(t3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(t3)
+revert = gg.getListItems()
+gg.setValues(t3)
+gg.processResume()
+gg.toast("적용이 완료되었습니다.")
+end
+
+function K4()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local t = gg.getResults(7)
+gg.addListItems(t)
+local t3 = {}
+for i, v in ipairs(t) do
+	table.insert(t3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
+            table.insert(t3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+             table.insert(t3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+	table.insert(t3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(t3)
+revert = gg.getListItems()
+gg.setValues(t3)
 gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
