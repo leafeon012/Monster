@@ -198,7 +198,7 @@ table.insert(t3, {address=v.address+0x90A29C,flags=gg.TYPE_DWORD,value=48,freeze
 table.insert(t3, {address=v.address+0x90A2A0,flags=gg.TYPE_DWORD,value=48,freeze=false})
 table.insert(t3, {address=v.address+0x90A2A4,flags=gg.TYPE_DWORD,value=48,freeze=false})
 table.insert(t3, {address=v.address+0x90A2A8,flags=gg.TYPE_DWORD,value=48,freeze=false})
-table.insert(t3, {address=v.address+0x90A2AC,flags=gg.TYPE_DWORD,value=0,freeze=false})
+table.insert(t3, {address=v.address+0x90A2AC,flags=gg.TYPE_DWORD,value=48,freeze=false})
 table.insert(t3, {address=v.address+0x90A2B0,flags=gg.TYPE_DWORD,value=0,freeze=false})
 end
 gg.addListItems(t3)
