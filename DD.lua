@@ -363,6 +363,7 @@ gg.addListItems(p3)
 revert = gg.getListItems()
 gg.setValues(p3)
 gg.processResume()
+end
 
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.clearList()
