@@ -20,12 +20,9 @@ gg.alert(os.date([[박사 치트 V.10.3.0
 - 온라인 서버에서 지속적으로 업데이트 됩니다.
 - 오류 전달은 냥코레인저스 갤러리로 부탁드립니다.]]))
 
-gg.alert([[2021.3.21 업데이트
+gg.alert([[2021.3.22 업데이트
 
-- 스토리 모드 올클리어 기능이 추가되었습니다.
-- 콜라보 뽑기 확률 조작 기능이 추가되었습니다.
-- 냥코 클럽 시간 조작 기능이 추가되었습니다.
-- 티켓 개수 조작 기능이 추가되었습니다.]])
+- 레어뽑기 확률 조작의 시리즈가 변경되었습니다.]])
 
 
 function Main()
@@ -297,7 +294,7 @@ menu1= gg.choice({
 "Only Ultra Super Rare",
 "Only Legend Rare",
 "메인 메뉴로 이동"}, nil, ([[레전드레어가 없는 시리즈에서 Only Legend Rare 기능을 사용하면 고양이만 나옵니다.
-현재 일정은 [ 하이퍼 고양이 축제 ] 입니다.]]))
+현재 일정은 [ 드래곤 엠퍼러스 ] 입니다.]]))
 if menu1 == 1 then P1() end
 if menu1 == 2 then P2() end
 if menu1 == 3 then P3() end
@@ -310,7 +307,7 @@ function P1()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("542;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("433;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local p = gg.getResults(7)
@@ -335,7 +332,7 @@ function P2()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("542;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("433;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local p = gg.getResults(7)
@@ -360,7 +357,7 @@ function P3()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("542;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("433;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local p = gg.getResults(7)
@@ -385,7 +382,7 @@ function P4()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("542;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("433;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local p = gg.getResults(7)
