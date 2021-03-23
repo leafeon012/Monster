@@ -751,9 +751,9 @@ gg.clearResults()
 gg.searchNumber("1,179,403,647;65,793;196,611;1;52;9,448,224;2,097,204;2,621,448;1,835,037:49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("1,179,403,647", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
-local t = gg.getResults(7)
+local t = gg.getResults(7) 
 gg.addListItems(t)
-local t3 = {}
+local t3 = {} 
 for i, v in ipairs(t) do
 	table.insert(t3, {address=v.address+0xB1ED24,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
 	table.insert(t3, {address=v.address+0xB1ED28,flags=gg.TYPE_DWORD,value=0,freeze=false})
@@ -793,7 +793,7 @@ end
 end
 
 function Image()
-gg.clearResults()
+gg.clearResults() 
 gg.clearList()
 gg.alert("이미지 파일 다운로드를 시작합니다.")
 gg.toast("파일을 다운로드중입니다...")
