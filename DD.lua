@@ -23,7 +23,8 @@ gg.alert(os.date([[박사 치트 V.10.3.0
 gg.alert([[2021.03.23 업데이트 내역
 
 - 냥코 생성기 기능이 추가 되었습니다.
-- 유닛 코드 이미지 파일 다운로드 기능이 추가되었습니다.]])
+- 냥코 제거기 기능이 추가 되었습니다.
+- 유닛 코드 이미지 파일 다운로드 기능이 추가 되었습니다.]])
 
 java1 = io.open("/sdcard/RemakePackWithList.java")
 java2 = io.open("/sdcard/GetPackFromList.java")
@@ -708,6 +709,7 @@ local menu= gg.choice({
 "[ 메뉴 ] 레어뽑기 확률 조작",
 "[ 메뉴 ] 콜라보뽑기 확률 조작",
 "냥코 생성기",
+"냥코 제거기",
 "유닛 코드 이미지 파일 다운로드",
 "XP 개수 조작",
 "통조림 개수 조작",
@@ -721,17 +723,36 @@ local menu= gg.choice({
 if menu == 1 then MENU2() end
 if menu == 2 then MENU3() end
 if menu == 3 then MAKER() end
-if menu == 4 then Image() end
-if menu == 5 then T1() end
-if menu == 6 then T2() end
-if menu == 7 then T3() end
-if menu == 8 then Apple() end
-if menu == 9 then All() end
-if menu == 10 then Club() end
-if menu == 11 then Ticket() end
-if menu == 12 then T4() end
-if menu == 13 then T5() end
+if menu == 4 then REMOVER() end
+if menu == 5 then Image() end
+if menu == 6 then T1() end
+if menu == 7 then T2() end
+if menu == 8 then T3() end
+if menu == 9 then Apple() end
+if menu == 10 then All() end
+if menu == 11 then Club() end
+if menu == 12 then Ticket() end
+if menu == 13 then T4() end
+if menu == 14 then T5() end
 HOMEDM=-1
+end
+
+function REMOVER()
+harpp = gg.prompt({'삭제할 캐릭터의 유닛 코드를 입력해주세요 (한번에 한 마리만)'}, nil, {'number'})
+if harpp == nil then
+else
+gg.loadList("/sdcard/Android/data/doc.txt")
+gg.loadResults(gg.getListItems("/sdcard/Android/data/doc.txt"))
+local qresult = gg.getResults(999)
+
+gg.addListItems(qresult)
+	_address = qresult[1].address
+	_value = qresult[1].value
+	gg.setValues({{address = _address+4*harpp[1]-4, flags = gg.TYPE_DWORD, value = _value-1}})
+gg.toast("적용이 완료되었습니다.")
+gg.clearList()
+gg.clearResults()
+end
 end
 
 function Image()
