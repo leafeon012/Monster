@@ -735,10 +735,14 @@ HOMEDM=-1
 end
 
 function Image()
+gg.clearResults()
+gg.clearList()
 gg.alert("이미지 파일 다운로드를 시작합니다.")
 gg.toast("파일을 다운로드중입니다...")
 data = gg.makeRequest("https://docterhakase2.000webhostapp.com/DocterHakase.png").content
 io.open("/sdcard/UnitNumber.png","w+"):write(data):close();
+gg.alert([[다운로드가 완료되었습니다.
+/storage/emulated/0/UnitNumber.png 파일을 확인하세요.]])
 end
 
 function T1()
