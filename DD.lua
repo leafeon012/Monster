@@ -24,7 +24,8 @@ gg.alert([[2021.03.23 업데이트 내역
 
 - 냥코 생성기 기능이 추가 되었습니다.
 - 냥코 제거기 기능이 추가 되었습니다.
-- 유닛 코드 이미지 파일 다운로드 기능이 추가 되었습니다.]])
+- 유닛 코드 이미지 파일 다운로드 기능이 추가 되었습니다.
+- 캣츠아이 개수 조작 기능이 추가 되었습니다.]])
 
 java1 = io.open("/sdcard/RemakePackWithList.java")
 java2 = io.open("/sdcard/GetPackFromList.java")
@@ -719,6 +720,7 @@ local menu= gg.choice({
 "냥코 클럽 시간 조작",
 "티켓 개수 조작",
 "전투 즉시 승리",
+"캣츠아이 개수 조작",
 "스크립트 종료"}, nil, ([[현재 최신버전입니다.]]))
 if menu == 1 then MENU2() end
 if menu == 2 then MENU3() end
@@ -733,8 +735,43 @@ if menu == 10 then All() end
 if menu == 11 then Club() end
 if menu == 12 then Ticket() end
 if menu == 13 then T4() end
-if menu == 14 then T5() end
+if menu == 14 then CatEye() end
+if menu == 15 then T5() end
 HOMEDM=-1
+end
+
+function CatEye()
+harpp = gg.prompt({'캣츠아이 (EX) ', '캣츠아이 (레어) ', '캣츠아이 (슈퍼 레어)', '캣츠아이 (울트라 슈퍼 레어)', '캣츠아이 (레전드 레어)'},
+{[1]='', [2]='', [3]='', [4]='', [5]=''})
+if harpp == nil then
+else
+gg.setRanges(gg.REGION_CODE_APP)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("1,179,403,647;65,793;196,611;1;52;9,448,224;2,097,204;2,621,448;1,835,037:49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1,179,403,647", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local t = gg.getResults(7)
+gg.addListItems(t)
+local t3 = {}
+for i, v in ipairs(t) do
+	table.insert(t3, {address=v.address+0xB1ED24,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0xB1ED28,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0xB1ED2C,flags=gg.TYPE_DWORD,value=harpp[2],freeze=false})
+	table.insert(t3, {address=v.address+0xB1ED30,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0xB1ED34,flags=gg.TYPE_DWORD,value=harpp[3],freeze=false})
+	table.insert(t3, {address=v.address+0xB1ED38,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0xB1ED3C,flags=gg.TYPE_DWORD,value=harpp[4],freeze=false})
+	table.insert(t3, {address=v.address+0xB1ED40,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0xB1ED44,flags=gg.TYPE_DWORD,value=harpp[5],freeze=false})
+	table.insert(t3, {address=v.address+0xB1ED48,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(t3)
+revert = gg.getListItems()
+gg.setValues(t3)
+gg.processResume()
+gg.toast("적용이 완료되었습니다.")
+end
 end
 
 function REMOVER()
