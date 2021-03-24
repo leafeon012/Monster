@@ -714,11 +714,11 @@ local menu= gg.choice({
 "통조림 개수 조작",
 "아이템 개수 조작",
 "개다래 개수 조작",
-"스토리 모드 올클리어",
-"냥코 클럽 시간 조작",
-"티켓 개수 조작",
+"스토리 모드 올클리어 (업데이트중)",
+"냥코 클럽 시간 조작 (업데이트중)",
+"티켓 개수 조작 (업데이트중)",
 "전투 즉시 승리",
-"캣츠아이 개수 조작",
+"캣츠아이 개수 조작 (업데이트중)",
 "스크립트 종료"}, nil, ([[현재 최신버전입니다.]]))
 if menu == 1 then MENU2() end
 if menu == 2 then MENU3() end
@@ -746,7 +746,7 @@ else
 gg.setRanges(gg.REGION_CODE_APP)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("1,179,403,647;65,793;196,611;1;52;9,448,224;2,097,204;2,621,448;1,835,037:49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,179,403,647;65,794;11,993,091;736,784;64;8,342,360;3,670,080:53", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("1,179,403,647", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local t = gg.getResults(7) 
@@ -808,15 +808,15 @@ else
 gg.setRanges(gg.REGION_CODE_APP)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("1,179,403,647;65,793;196,611;1;52;9,448,224;2,097,204;2,621,448;1,835,037:49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,179,403,647;65,794;11,993,091;736,784;64;8,342,360;3,670,080:53", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("1,179,403,647", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local t = gg.getResults(7)
 gg.addListItems(t)
 local t3 = {}
 for i, v in ipairs(t) do
-	table.insert(t3, {address=v.address+0x909E20,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
-	table.insert(t3, {address=v.address+0x909E24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x800AA8,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0x800AAC,flags=gg.TYPE_DWORD,value=0,freeze=false})
 end
 gg.addListItems(t3)
 revert = gg.getListItems()
@@ -833,15 +833,15 @@ else
 gg.setRanges(gg.REGION_CODE_APP)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("1,179,403,647;65,793;196,611;1;52;9,448,224;2,097,204;2,621,448;1,835,037:49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,179,403,647;65,794;11,993,091;736,784;64;8,342,360;3,670,080:53", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("1,179,403,647", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local t = gg.getResults(7)
 gg.addListItems(t)
 local t3 = {}
 for i, v in ipairs(t) do
-	table.insert(t3, {address=v.address+0x909D34,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
-	table.insert(t3, {address=v.address+0x909D38,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x8009A8,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0x8009AC,flags=gg.TYPE_DWORD,value=0,freeze=false})
 end
 gg.addListItems(t3)
 revert = gg.getListItems()
@@ -858,31 +858,26 @@ else
 gg.setRanges(gg.REGION_CODE_APP)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("1,179,403,647;65,793;196,611;1;52;9,448,224;2,097,204;2,621,448;1,835,037:49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,179,403,647;65,794;11,993,091;736,784;64;8,342,360;3,670,080:53", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("1,179,403,647", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local t = gg.getResults(7)
 gg.addListItems(t)
 local t3 = {}
 for i, v in ipairs(t) do
-	table.insert(t3, {address=v.address+0x90E1F8,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
-	table.insert(t3, {address=v.address+0x90E1FC,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x90E200,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
-	table.insert(t3, {address=v.address+0x90E204,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x90E208,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
-	table.insert(t3, {address=v.address+0x90E20C,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x90E210,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
-	table.insert(t3, {address=v.address+0x90E214,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x90E218,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
-	table.insert(t3, {address=v.address+0x90E21C,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x90E220,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
-	table.insert(t3, {address=v.address+0x90E224,flags=gg.TYPE_DWORD,value=0,freeze=false})
-        table.insert(t3, {address=v.address+0xB1ED4C,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
-	table.insert(t3, {address=v.address+0xB1ED50,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0xB1ED54,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
-	table.insert(t3, {address=v.address+0xB1ED58,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0xB1ED5C,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
-	table.insert(t3, {address=v.address+0xB1ED60,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x804F40,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0x804F44,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x804F48,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0x804F4C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x804F50,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0x804F54,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x804F58,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0x804F5C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x804F60,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0x804F64,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0x804F68,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0x804F6C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+    
 end
 gg.addListItems(t3)
 revert = gg.getListItems()
@@ -915,7 +910,7 @@ function Apple()
 harpp = gg.prompt({'원하는 수치를 입력해주세요 (8개 미만으로)'}, nil, {'number'})
 if harpp == nil then
 else
-gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setRanges(gg.REGION_C_ALLOC)
 gg.clearList()
 gg.clearResults()
 gg.searchNumber("129;129;0;1;2;3;4;5;6;7;8;9;10;11;12;13;14::505", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -953,7 +948,7 @@ function All()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("1,179,403,647;65,793;196,611;1;52;9,448,224;2,097,204;2,621,448;1,835,037:49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,179,403,647;65,794;11,993,091;736,784;64;8,342,360;3,670,080:53", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("1,179,403,647", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 local t = gg.getResults(7)
 gg.addListItems(t)
@@ -984,7 +979,7 @@ else
 gg.setRanges(gg.REGION_CODE_APP)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("1,179,403,647;65,793;196,611;1;52;9,448,224;2,097,204;2,621,448;1,835,037:49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,179,403,647;65,794;11,993,091;736,784;64;8,342,360;3,670,080:53", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("1,179,403,647", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local t = gg.getResults(7)
@@ -1008,7 +1003,7 @@ else
 gg.setRanges(gg.REGION_CODE_APP)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("1,179,403,647;65,793;196,611;1;52;9,448,224;2,097,204;2,621,448;1,835,037:49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,179,403,647;65,794;11,993,091;736,784;64;8,342,360;3,670,080:53", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("1,179,403,647", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local t = gg.getResults(7)
@@ -1032,13 +1027,13 @@ function T4()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("1,179,403,647;65,793;196,611;1;52;9,448,224;2,097,204;2,621,448;1,835,037:49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,179,403,647;65,794;11,993,091;736,784;64;8,342,360;3,670,080:53", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("1,179,403,647", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 local t = gg.getResults(7)
 gg.addListItems(t)
 local t3 = {}
 for i, v in ipairs(t) do
-table.insert(t3, {address=v.address+0x93CB6C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+table.insert(t3, {address=v.address+0x8338DC,flags=gg.TYPE_DWORD,value=0,freeze=false})
 end
 gg.addListItems(t3)
 revert = gg.getListItems()
@@ -1072,7 +1067,7 @@ end
 
 
 function P1()
-gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setRanges(gg.REGION_C_ALLOC)
 gg.clearList()
 gg.clearResults()
 gg.searchNumber("538;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -1097,7 +1092,7 @@ gg.toast("적용이 완료되었습니다.")
 end
 
 function P2()
-gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setRanges(gg.REGION_C_ALLOC)
 gg.clearList()
 gg.clearResults()
 gg.searchNumber("538;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -1122,7 +1117,7 @@ gg.toast("적용이 완료되었습니다.")
 end
 
 function P3()
-gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setRanges(gg.REGION_C_ALLOC)
 gg.clearList()
 gg.clearResults()
 gg.searchNumber("538;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -1147,7 +1142,7 @@ gg.toast("적용이 완료되었습니다.")
 end
 
 function P4()
-gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setRanges(gg.REGION_C_ALLOC)
 gg.clearList()
 gg.clearResults()
 gg.searchNumber("538;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -1188,7 +1183,7 @@ HOMEDM=-1
 end
 
 function K1()
-gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setRanges(gg.REGION_C_ALLOC)
 gg.clearList()
 gg.clearResults()
 gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -1213,7 +1208,7 @@ gg.toast("적용이 완료되었습니다.")
 end
 
 function K2()
-gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setRanges(gg.REGION_C_ALLOC)
 gg.clearList()
 gg.clearResults()
 gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -1238,7 +1233,7 @@ gg.toast("적용이 완료되었습니다.")
 end
 
 function K3()
-gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setRanges(gg.REGION_C_ALLOC)
 gg.clearList()
 gg.clearResults()
 gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -1263,7 +1258,7 @@ gg.toast("적용이 완료되었습니다.")
 end
 
 function K4()
-gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setRanges(gg.REGION_C_ALLOC)
 gg.clearList()
 gg.clearResults()
 gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -1296,4 +1291,3 @@ if HOMEDM == 1 then
 Main()
 end
 end
-
