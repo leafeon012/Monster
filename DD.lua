@@ -101,7 +101,7 @@ public class AES256Util {
 gg.alert([[해당 기기에 java 패키지가 설치되었습니다.]])
 end
 
-io.open("/sdcard/Android/data/doc.txt","w"):write([[
+io.open("/sdcard/doc.txt","w"):write([[
 3257
 Var #A1A20C0C|a1a20c0c|4|d347c60a|0|0|0|0|rw-p|/data/app/jp.co.ponos.battlecatskr-1/lib/x86/libnative-lib.so:bss|7c0c
 Var #A1A20C10|a1a20c10|4|d347c60a|0|0|0|0|rw-p|/data/app/jp.co.ponos.battlecatskr-1/lib/x86/libnative-lib.so:bss|7c10
@@ -775,8 +775,8 @@ function REMOVER()
 harpp = gg.prompt({'삭제할 캐릭터의 유닛 코드를 입력해주세요 (한번에 한 마리만)'}, nil, {'number'})
 if harpp == nil then
 else
-gg.loadList("/sdcard/Android/data/doc.txt")
-gg.loadResults(gg.getListItems("/sdcard/Android/data/doc.txt"))
+gg.loadList("/sdcard/doc.txt")
+gg.loadResults(gg.getListItems("/sdcard/doc.txt"))
 local qresult = gg.getResults(999)
 
 gg.addListItems(qresult)
@@ -895,8 +895,8 @@ function MAKER()
 harpp = gg.prompt({'원하는 캐릭터의 유닛 코드를 입력해주세요 (한번에 한 마리만)'}, nil, {'number'})
 if harpp == nil then
 else
-gg.loadList("/sdcard/Android/data/doc.txt")
-gg.loadResults(gg.getListItems("/sdcard/Android/data/doc.txt"))
+gg.loadList("/sdcard/doc.txt")
+gg.loadResults(gg.getListItems("/sdcard/doc.txt"))
 local qresult = gg.getResults(999)
 
 gg.addListItems(qresult)
