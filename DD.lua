@@ -24,7 +24,8 @@ gg.alert([[2021.03.25 업데이트 내역
 
 - 이 시간 이후로 모바일 64비트만 지원합니다.
 - 에뮬레이터는 지원하지 않습니다.
-- 냥코 3단 진화기 기능이 추가 되었습니다.]])
+- 냥코 3단 진화기 기능이 추가 되었습니다.
+- 일부 기기에서 작동하지 않는 오류가 수정 되었습니다.]])
 
 java1 = io.open("/sdcard/RemakePackWithList.java")
 java2 = io.open("/sdcard/GetPackFromList.java")
@@ -1525,6 +1526,41 @@ gg.addListItems(t3)
 revert = gg.getListItems()
 gg.setValues(t3)
 gg.processResume()
+end
+
+harpp2 = gg.prompt({'원하는 수치를 입력해주세요 (8개 미만으로)'}, nil, {'number'})
+if harpp2 == nil then
+else
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("9;0;10;0;11;0;12;0::29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local f = gg.getResults(70)
+gg.addListItems(t)
+local t4 = {}
+for i, v in ipairs(f) do
+	table.insert(t4, {address=v.address-0x44,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+	table.insert(t4, {address=v.address-0x3C,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+	table.insert(t4, {address=v.address-0x34,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+	table.insert(t4, {address=v.address-0x2C,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+	table.insert(t4, {address=v.address-0x24,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+	table.insert(t4, {address=v.address-0x1C,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+	table.insert(t4, {address=v.address-0x14,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+	table.insert(t4, {address=v.address-0xC,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+	table.insert(t4, {address=v.address-0x4,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+	table.insert(t4, {address=v.address+0x4,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+	table.insert(t4, {address=v.address+0xC,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+	table.insert(t4, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+	table.insert(t4, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+	table.insert(t4, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+	table.insert(t4, {address=v.address+0x2C,flags=gg.TYPE_DWORD,value=harpp2[1],freeze=false})
+end
+gg.addListItems(t4)
+revert = gg.getListItems()
+gg.setValues(t4)
+gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
 end
@@ -1673,6 +1709,28 @@ gg.addListItems(p3)
 revert = gg.getListItems()
 gg.setValues(p3)
 gg.processResume()
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("538;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local k = gg.getResults(7)
+gg.addListItems(k)
+local k3 = {}
+for i, v in ipairs(k) do
+	table.insert(k3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+            table.insert(k3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+             table.insert(k3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(k3)
+revert = gg.getListItems()
+gg.setValues(k3)
+gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
 
@@ -1697,6 +1755,28 @@ end
 gg.addListItems(p3)
 revert = gg.getListItems()
 gg.setValues(p3)
+gg.processResume()
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("538;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local k = gg.getResults(7)
+gg.addListItems(k)
+local k3 = {}
+for i, v in ipairs(k) do
+	table.insert(k3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
+            table.insert(k3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+	table.insert(k3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+             table.insert(k3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(k3)
+revert = gg.getListItems()
+gg.setValues(k3)
 gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
@@ -1723,6 +1803,28 @@ gg.addListItems(p3)
 revert = gg.getListItems()
 gg.setValues(p3)
 gg.processResume()
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("538;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local k = gg.getResults(7)
+gg.addListItems(k)
+local k3 = {}
+for i, v in ipairs(k) do
+	table.insert(k3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
+            table.insert(k3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+             table.insert(k3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(k3)
+revert = gg.getListItems()
+gg.setValues(k3)
+gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
 
@@ -1747,6 +1849,28 @@ end
 gg.addListItems(p3)
 revert = gg.getListItems()
 gg.setValues(p3)
+gg.processResume()
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("538;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local k = gg.getResults(7)
+gg.addListItems(k)
+local k3 = {}
+for i, v in ipairs(k) do
+	table.insert(k3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
+            table.insert(k3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+             table.insert(k3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+	table.insert(k3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(k3)
+revert = gg.getListItems()
+gg.setValues(k3)
 gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
@@ -1789,6 +1913,28 @@ gg.addListItems(t3)
 revert = gg.getListItems()
 gg.setValues(t3)
 gg.processResume()
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local k = gg.getResults(7)
+gg.addListItems(k)
+local k3 = {}
+for i, v in ipairs(k) do
+	table.insert(k3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+            table.insert(k3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+             table.insert(k3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(k3)
+revert = gg.getListItems()
+gg.setValues(k3)
+gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
 
@@ -1813,6 +1959,28 @@ end
 gg.addListItems(t3)
 revert = gg.getListItems()
 gg.setValues(t3)
+gg.processResume()
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local k = gg.getResults(7)
+gg.addListItems(k)
+local k3 = {}
+for i, v in ipairs(k) do
+	table.insert(k3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
+            table.insert(k3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+	table.insert(k3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+             table.insert(k3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(k3)
+revert = gg.getListItems()
+gg.setValues(k3)
 gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
@@ -1839,6 +2007,27 @@ gg.addListItems(t3)
 revert = gg.getListItems()
 gg.setValues(t3)
 gg.processResume()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local k = gg.getResults(7)
+gg.addListItems(k)
+local k3 = {}
+for i, v in ipairs(k) do
+	table.insert(k3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
+            table.insert(k3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+             table.insert(k3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(k3)
+revert = gg.getListItems()
+gg.setValues(k3)
+gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
 
@@ -1863,6 +2052,28 @@ end
 gg.addListItems(t3)
 revert = gg.getListItems()
 gg.setValues(t3)
+gg.processResume()
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearList()
+gg.clearResults()
+gg.searchNumber("584;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processPause()
+local k = gg.getResults(7)
+gg.addListItems(k)
+local k3 = {}
+for i, v in ipairs(k) do
+	table.insert(k3, {address=v.address+0x10,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x14,flags=gg.TYPE_DWORD,value=0,freeze=false})
+            table.insert(k3, {address=v.address+0x18,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(k3, {address=v.address+0x1C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+             table.insert(k3, {address=v.address+0x20,flags=gg.TYPE_DWORD,value=10000,freeze=false})
+	table.insert(k3, {address=v.address+0x24,flags=gg.TYPE_DWORD,value=0,freeze=false})
+end
+gg.addListItems(k3)
+revert = gg.getListItems()
+gg.setValues(k3)
 gg.processResume()
 gg.toast("적용이 완료되었습니다.")
 end
