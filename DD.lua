@@ -1443,6 +1443,12 @@ for i, v in ipairs(t) do
 	table.insert(t3, {address=v.address+0x804F64,flags=gg.TYPE_DWORD,value=0,freeze=false})
 	table.insert(t3, {address=v.address+0x804F68,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
 	table.insert(t3, {address=v.address+0x804F6C,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0xA7410C,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0xA74110,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0xA74114,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0xA74118,flags=gg.TYPE_DWORD,value=0,freeze=false})
+	table.insert(t3, {address=v.address+0xA7411C,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0xA74120,flags=gg.TYPE_DWORD,value=0,freeze=false})
     
 end
 gg.addListItems(t3)
