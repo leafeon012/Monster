@@ -1498,7 +1498,7 @@ else
 gg.setRanges(gg.REGION_OTHER)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("129;129;0;1;2;3;4;5;6;7;8;9;10;11;12;13;14::569", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("524,551;1;2;3;4;5;6;7;8;9;10;11;12;13;14::129", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local t = gg.getResults(70)
