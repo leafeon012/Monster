@@ -1472,6 +1472,24 @@ gg.clearResults()
 end
 end
 
+function REMOVER()
+harpp = gg.prompt({'삭제할 캐릭터의 유닛 코드를 입력해주세요 (한번에 한 마리만)'}, nil, {'number'})
+if harpp == nil then
+else
+gg.loadList("/sdcard/doc.txt")
+gg.loadResults(gg.getListItems("/sdcard/doc.txt"))
+local qresult = gg.getResults(999)
+
+gg.addListItems(qresult)
+	_address = qresult[1].address
+	_value = qresult[597].value
+	gg.setValues({{address = _address+4*harpp[1]-4, flags = gg.TYPE_DWORD, value = _value}})
+gg.toast("적용이 완료되었습니다.")
+gg.clearList()
+gg.clearResults()
+end
+end
+
 
 function Apple()
 harpp = gg.prompt({'원하는 수치를 입력해주세요 (8개 미만으로)'}, nil, {'number'})
