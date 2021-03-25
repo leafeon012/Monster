@@ -782,8 +782,8 @@ local qresult = gg.getResults(999)
 
 gg.addListItems(qresult)
 	_address = qresult[1].address
-	_value = qresult[1].value
-	gg.setValues({{address = _address+4*harpp[1]-4, flags = gg.TYPE_DWORD, value = _value+1}})
+	_value = qresult[597].value
+	gg.setValues({{address = _address+4*harpp[1]-4, flags = gg.TYPE_DWORD, value = _value}})
 gg.toast("적용이 완료되었습니다.")
 gg.clearList()
 gg.clearResults()
