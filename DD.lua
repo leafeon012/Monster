@@ -23,7 +23,8 @@ gg.alert(os.date([[박사 치트 V.10.3.0
 gg.alert([[2021.03.25 업데이트 내역
 
 - 이 시간 이후로 모바일 64비트만 지원합니다.
-- 에뮬레이터는 지원하지 않습니다.]])
+- 에뮬레이터는 지원하지 않습니다.
+- 냥코 3단 진화기 기능이 추가 되었습니다.]])
 
 java1 = io.open("/sdcard/RemakePackWithList.java")
 java2 = io.open("/sdcard/GetPackFromList.java")
@@ -101,6 +102,607 @@ public class AES256Util {
   ]])
 gg.alert([[해당 기기에 java 패키지가 설치되었습니다.]])
 end
+
+io.open("/sdcard/to3.txt","w"):write([[
+11294
+Var #740802A800|740802a800|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b800
+Var #740802A804|740802a804|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b804
+Var #740802A808|740802a808|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b808
+Var #740802A80C|740802a80c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b80c
+Var #740802A810|740802a810|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b810
+Var #740802A814|740802a814|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b814
+Var #740802A818|740802a818|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b818
+Var #740802A81C|740802a81c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b81c
+Var #740802A820|740802a820|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b820
+Var #740802A824|740802a824|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b824
+Var #740802A828|740802a828|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b828
+Var #740802A82C|740802a82c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b82c
+Var #740802A830|740802a830|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b830
+Var #740802A834|740802a834|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b834
+Var #740802A838|740802a838|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b838
+Var #740802A83C|740802a83c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b83c
+Var #740802A840|740802a840|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b840
+Var #740802A844|740802a844|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b844
+Var #740802A848|740802a848|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b848
+Var #740802A84C|740802a84c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b84c
+Var #740802A850|740802a850|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b850
+Var #740802A854|740802a854|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b854
+Var #740802A858|740802a858|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b858
+Var #740802A85C|740802a85c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b85c
+Var #740802A860|740802a860|4|2|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b860
+Var #740802A864|740802a864|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b864
+Var #740802A868|740802a868|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b868
+Var #740802A86C|740802a86c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b86c
+Var #740802A870|740802a870|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b870
+Var #740802A874|740802a874|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b874
+Var #740802A878|740802a878|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b878
+Var #740802A87C|740802a87c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b87c
+Var #740802A880|740802a880|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b880
+Var #740802A884|740802a884|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b884
+Var #740802A888|740802a888|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b888
+Var #740802A88C|740802a88c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b88c
+Var #740802A890|740802a890|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b890
+Var #740802A894|740802a894|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b894
+Var #740802A898|740802a898|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b898
+Var #740802A89C|740802a89c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b89c
+Var #740802A8A0|740802a8a0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8a0
+Var #740802A8A4|740802a8a4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8a4
+Var #740802A8A8|740802a8a8|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8a8
+Var #740802A8AC|740802a8ac|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8ac
+Var #740802A8B0|740802a8b0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8b0
+Var #740802A8B4|740802a8b4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8b4
+Var #740802A8B8|740802a8b8|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8b8
+Var #740802A8BC|740802a8bc|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8bc
+Var #740802A8C0|740802a8c0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8c0
+Var #740802A8C4|740802a8c4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8c4
+Var #740802A8C8|740802a8c8|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8c8
+Var #740802A8CC|740802a8cc|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8cc
+Var #740802A8D0|740802a8d0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8d0
+Var #740802A8D4|740802a8d4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8d4
+Var #740802A8D8|740802a8d8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8d8
+Var #740802A8DC|740802a8dc|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8dc
+Var #740802A8E0|740802a8e0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8e0
+Var #740802A8E4|740802a8e4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8e4
+Var #740802A8E8|740802a8e8|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8e8
+Var #740802A8EC|740802a8ec|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8ec
+Var #740802A8F0|740802a8f0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8f0
+Var #740802A8F4|740802a8f4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8f4
+Var #740802A8F8|740802a8f8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8f8
+Var #740802A8FC|740802a8fc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b8fc
+Var #740802A900|740802a900|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b900
+Var #740802A904|740802a904|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b904
+Var #740802A908|740802a908|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b908
+Var #740802A90C|740802a90c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b90c
+Var #740802A910|740802a910|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b910
+Var #740802A914|740802a914|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b914
+Var #740802A918|740802a918|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b918
+Var #740802A91C|740802a91c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b91c
+Var #740802A920|740802a920|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b920
+Var #740802A924|740802a924|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b924
+Var #740802A928|740802a928|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b928
+Var #740802A92C|740802a92c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b92c
+Var #740802A930|740802a930|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b930
+Var #740802A934|740802a934|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b934
+Var #740802A938|740802a938|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b938
+Var #740802A93C|740802a93c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b93c
+Var #740802A940|740802a940|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b940
+Var #740802A944|740802a944|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b944
+Var #740802A948|740802a948|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b948
+Var #740802A94C|740802a94c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b94c
+Var #740802A950|740802a950|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b950
+Var #740802A954|740802a954|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b954
+Var #740802A958|740802a958|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b958
+Var #740802A95C|740802a95c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b95c
+Var #740802A960|740802a960|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b960
+Var #740802A964|740802a964|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b964
+Var #740802A968|740802a968|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b968
+Var #740802A96C|740802a96c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b96c
+Var #740802A970|740802a970|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b970
+Var #740802A974|740802a974|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b974
+Var #740802A978|740802a978|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b978
+Var #740802A97C|740802a97c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b97c
+Var #740802A980|740802a980|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b980
+Var #740802A984|740802a984|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b984
+Var #740802A988|740802a988|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b988
+Var #740802A98C|740802a98c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b98c
+Var #740802A990|740802a990|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b990
+Var #740802A994|740802a994|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b994
+Var #740802A998|740802a998|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b998
+Var #740802A99C|740802a99c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b99c
+Var #740802A9A0|740802a9a0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9a0
+Var #740802A9A4|740802a9a4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9a4
+Var #740802A9A8|740802a9a8|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9a8
+Var #740802A9AC|740802a9ac|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9ac
+Var #740802A9B0|740802a9b0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9b0
+Var #740802A9B4|740802a9b4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9b4
+Var #740802A9B8|740802a9b8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9b8
+Var #740802A9BC|740802a9bc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9bc
+Var #740802A9C0|740802a9c0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9c0
+Var #740802A9C4|740802a9c4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9c4
+Var #740802A9C8|740802a9c8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9c8
+Var #740802A9CC|740802a9cc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9cc
+Var #740802A9D0|740802a9d0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9d0
+Var #740802A9D4|740802a9d4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9d4
+Var #740802A9D8|740802a9d8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9d8
+Var #740802A9DC|740802a9dc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9dc
+Var #740802A9E0|740802a9e0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9e0
+Var #740802A9E4|740802a9e4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9e4
+Var #740802A9E8|740802a9e8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9e8
+Var #740802A9EC|740802a9ec|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9ec
+Var #740802A9F0|740802a9f0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9f0
+Var #740802A9F4|740802a9f4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9f4
+Var #740802A9F8|740802a9f8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9f8
+Var #740802A9FC|740802a9fc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21b9fc
+Var #740802AA00|740802aa00|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba00
+Var #740802AA04|740802aa04|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba04
+Var #740802AA08|740802aa08|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba08
+Var #740802AA0C|740802aa0c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba0c
+Var #740802AA10|740802aa10|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba10
+Var #740802AA14|740802aa14|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba14
+Var #740802AA18|740802aa18|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba18
+Var #740802AA1C|740802aa1c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba1c
+Var #740802AA20|740802aa20|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba20
+Var #740802AA24|740802aa24|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba24
+Var #740802AA28|740802aa28|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba28
+Var #740802AA2C|740802aa2c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba2c
+Var #740802AA30|740802aa30|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba30
+Var #740802AA34|740802aa34|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba34
+Var #740802AA38|740802aa38|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba38
+Var #740802AA3C|740802aa3c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba3c
+Var #740802AA40|740802aa40|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba40
+Var #740802AA44|740802aa44|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba44
+Var #740802AA48|740802aa48|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba48
+Var #740802AA4C|740802aa4c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba4c
+Var #740802AA50|740802aa50|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba50
+Var #740802AA54|740802aa54|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba54
+Var #740802AA58|740802aa58|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba58
+Var #740802AA5C|740802aa5c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba5c
+Var #740802AA60|740802aa60|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba60
+Var #740802AA64|740802aa64|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba64
+Var #740802AA68|740802aa68|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba68
+Var #740802AA6C|740802aa6c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba6c
+Var #740802AA70|740802aa70|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba70
+Var #740802AA74|740802aa74|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba74
+Var #740802AA78|740802aa78|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba78
+Var #740802AA7C|740802aa7c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba7c
+Var #740802AA80|740802aa80|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba80
+Var #740802AA84|740802aa84|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba84
+Var #740802AA88|740802aa88|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba88
+Var #740802AA8C|740802aa8c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba8c
+Var #740802AA90|740802aa90|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba90
+Var #740802AA94|740802aa94|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba94
+Var #740802AA98|740802aa98|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba98
+Var #740802AA9C|740802aa9c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21ba9c
+Var #740802AAA0|740802aaa0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21baa0
+Var #740802AAA4|740802aaa4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21baa4
+Var #740802AAA8|740802aaa8|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21baa8
+Var #740802AAAC|740802aaac|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21baac
+Var #740802AAB0|740802aab0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bab0
+Var #740802AAB4|740802aab4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bab4
+Var #740802AAB8|740802aab8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bab8
+Var #740802AABC|740802aabc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21babc
+Var #740802AAC0|740802aac0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bac0
+Var #740802AAC4|740802aac4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bac4
+Var #740802AAC8|740802aac8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bac8
+Var #740802AACC|740802aacc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bacc
+Var #740802AAD0|740802aad0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bad0
+Var #740802AAD4|740802aad4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bad4
+Var #740802AAD8|740802aad8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bad8
+Var #740802AADC|740802aadc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21badc
+Var #740802AAE0|740802aae0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bae0
+Var #740802AAE4|740802aae4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bae4
+Var #740802AAE8|740802aae8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bae8
+Var #740802AAEC|740802aaec|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21baec
+Var #740802AAF0|740802aaf0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21baf0
+Var #740802AAF4|740802aaf4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21baf4
+Var #740802AAF8|740802aaf8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21baf8
+Var #740802AAFC|740802aafc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bafc
+Var #740802AB00|740802ab00|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb00
+Var #740802AB04|740802ab04|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb04
+Var #740802AB08|740802ab08|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb08
+Var #740802AB0C|740802ab0c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb0c
+Var #740802AB10|740802ab10|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb10
+Var #740802AB14|740802ab14|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb14
+Var #740802AB18|740802ab18|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb18
+Var #740802AB1C|740802ab1c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb1c
+Var #740802AB20|740802ab20|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb20
+Var #740802AB24|740802ab24|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb24
+Var #740802AB28|740802ab28|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb28
+Var #740802AB2C|740802ab2c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb2c
+Var #740802AB30|740802ab30|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb30
+Var #740802AB34|740802ab34|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb34
+Var #740802AB38|740802ab38|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb38
+Var #740802AB3C|740802ab3c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb3c
+Var #740802AB40|740802ab40|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb40
+Var #740802AB44|740802ab44|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb44
+Var #740802AB48|740802ab48|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb48
+Var #740802AB4C|740802ab4c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb4c
+Var #740802AB50|740802ab50|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb50
+Var #740802AB54|740802ab54|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb54
+Var #740802AB58|740802ab58|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb58
+Var #740802AB5C|740802ab5c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb5c
+Var #740802AB60|740802ab60|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb60
+Var #740802AB64|740802ab64|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb64
+Var #740802AB68|740802ab68|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb68
+Var #740802AB6C|740802ab6c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb6c
+Var #740802AB70|740802ab70|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb70
+Var #740802AB74|740802ab74|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb74
+Var #740802AB78|740802ab78|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb78
+Var #740802AB7C|740802ab7c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb7c
+Var #740802AB80|740802ab80|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb80
+Var #740802AB84|740802ab84|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb84
+Var #740802AB88|740802ab88|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb88
+Var #740802AB8C|740802ab8c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb8c
+Var #740802AB90|740802ab90|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb90
+Var #740802AB94|740802ab94|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb94
+Var #740802AB98|740802ab98|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb98
+Var #740802AB9C|740802ab9c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bb9c
+Var #740802ABA0|740802aba0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bba0
+Var #740802ABA4|740802aba4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bba4
+Var #740802ABA8|740802aba8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bba8
+Var #740802ABAC|740802abac|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbac
+Var #740802ABB0|740802abb0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbb0
+Var #740802ABB4|740802abb4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbb4
+Var #740802ABB8|740802abb8|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbb8
+Var #740802ABBC|740802abbc|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbbc
+Var #740802ABC0|740802abc0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbc0
+Var #740802ABC4|740802abc4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbc4
+Var #740802ABC8|740802abc8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbc8
+Var #740802ABCC|740802abcc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbcc
+Var #740802ABD0|740802abd0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbd0
+Var #740802ABD4|740802abd4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbd4
+Var #740802ABD8|740802abd8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbd8
+Var #740802ABDC|740802abdc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbdc
+Var #740802ABE0|740802abe0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbe0
+Var #740802ABE4|740802abe4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbe4
+Var #740802ABE8|740802abe8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbe8
+Var #740802ABEC|740802abec|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbec
+Var #740802ABF0|740802abf0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbf0
+Var #740802ABF4|740802abf4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbf4
+Var #740802ABF8|740802abf8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbf8
+Var #740802ABFC|740802abfc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bbfc
+Var #740802AC00|740802ac00|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc00
+Var #740802AC04|740802ac04|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc04
+Var #740802AC08|740802ac08|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc08
+Var #740802AC0C|740802ac0c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc0c
+Var #740802AC10|740802ac10|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc10
+Var #740802AC14|740802ac14|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc14
+Var #740802AC18|740802ac18|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc18
+Var #740802AC1C|740802ac1c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc1c
+Var #740802AC20|740802ac20|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc20
+Var #740802AC24|740802ac24|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc24
+Var #740802AC28|740802ac28|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc28
+Var #740802AC2C|740802ac2c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc2c
+Var #740802AC30|740802ac30|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc30
+Var #740802AC34|740802ac34|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc34
+Var #740802AC38|740802ac38|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc38
+Var #740802AC3C|740802ac3c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc3c
+Var #740802AC40|740802ac40|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc40
+Var #740802AC44|740802ac44|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc44
+Var #740802AC48|740802ac48|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc48
+Var #740802AC4C|740802ac4c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc4c
+Var #740802AC50|740802ac50|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc50
+Var #740802AC54|740802ac54|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc54
+Var #740802AC58|740802ac58|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc58
+Var #740802AC5C|740802ac5c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc5c
+Var #740802AC60|740802ac60|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc60
+Var #740802AC64|740802ac64|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc64
+Var #740802AC68|740802ac68|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc68
+Var #740802AC6C|740802ac6c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc6c
+Var #740802AC70|740802ac70|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc70
+Var #740802AC74|740802ac74|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc74
+Var #740802AC78|740802ac78|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc78
+Var #740802AC7C|740802ac7c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc7c
+Var #740802AC80|740802ac80|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc80
+Var #740802AC84|740802ac84|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc84
+Var #740802AC88|740802ac88|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc88
+Var #740802AC8C|740802ac8c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc8c
+Var #740802AC90|740802ac90|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc90
+Var #740802AC94|740802ac94|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc94
+Var #740802AC98|740802ac98|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc98
+Var #740802AC9C|740802ac9c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bc9c
+Var #740802ACA0|740802aca0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bca0
+Var #740802ACA4|740802aca4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bca4
+Var #740802ACA8|740802aca8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bca8
+Var #740802ACAC|740802acac|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcac
+Var #740802ACB0|740802acb0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcb0
+Var #740802ACB4|740802acb4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcb4
+Var #740802ACB8|740802acb8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcb8
+Var #740802ACBC|740802acbc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcbc
+Var #740802ACC0|740802acc0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcc0
+Var #740802ACC4|740802acc4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcc4
+Var #740802ACC8|740802acc8|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcc8
+Var #740802ACCC|740802accc|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bccc
+Var #740802ACD0|740802acd0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcd0
+Var #740802ACD4|740802acd4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcd4
+Var #740802ACD8|740802acd8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcd8
+Var #740802ACDC|740802acdc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcdc
+Var #740802ACE0|740802ace0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bce0
+Var #740802ACE4|740802ace4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bce4
+Var #740802ACE8|740802ace8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bce8
+Var #740802ACEC|740802acec|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcec
+Var #740802ACF0|740802acf0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcf0
+Var #740802ACF4|740802acf4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcf4
+Var #740802ACF8|740802acf8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcf8
+Var #740802ACFC|740802acfc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bcfc
+Var #740802AD00|740802ad00|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd00
+Var #740802AD04|740802ad04|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd04
+Var #740802AD08|740802ad08|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd08
+Var #740802AD0C|740802ad0c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd0c
+Var #740802AD10|740802ad10|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd10
+Var #740802AD14|740802ad14|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd14
+Var #740802AD18|740802ad18|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd18
+Var #740802AD1C|740802ad1c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd1c
+Var #740802AD20|740802ad20|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd20
+Var #740802AD24|740802ad24|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd24
+Var #740802AD28|740802ad28|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd28
+Var #740802AD2C|740802ad2c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd2c
+Var #740802AD30|740802ad30|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd30
+Var #740802AD34|740802ad34|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd34
+Var #740802AD38|740802ad38|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd38
+Var #740802AD3C|740802ad3c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd3c
+Var #740802AD40|740802ad40|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd40
+Var #740802AD44|740802ad44|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd44
+Var #740802AD48|740802ad48|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd48
+Var #740802AD4C|740802ad4c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd4c
+Var #740802AD50|740802ad50|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd50
+Var #740802AD54|740802ad54|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd54
+Var #740802AD58|740802ad58|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd58
+Var #740802AD5C|740802ad5c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd5c
+Var #740802AD60|740802ad60|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd60
+Var #740802AD64|740802ad64|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd64
+Var #740802AD68|740802ad68|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd68
+Var #740802AD6C|740802ad6c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd6c
+Var #740802AD70|740802ad70|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd70
+Var #740802AD74|740802ad74|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd74
+Var #740802AD78|740802ad78|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd78
+Var #740802AD7C|740802ad7c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd7c
+Var #740802AD80|740802ad80|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd80
+Var #740802AD84|740802ad84|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd84
+Var #740802AD88|740802ad88|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd88
+Var #740802AD8C|740802ad8c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd8c
+Var #740802AD90|740802ad90|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd90
+Var #740802AD94|740802ad94|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd94
+Var #740802AD98|740802ad98|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd98
+Var #740802AD9C|740802ad9c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bd9c
+Var #740802ADA0|740802ada0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bda0
+Var #740802ADA4|740802ada4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bda4
+Var #740802ADA8|740802ada8|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bda8
+Var #740802ADAC|740802adac|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdac
+Var #740802ADB0|740802adb0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdb0
+Var #740802ADB4|740802adb4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdb4
+Var #740802ADB8|740802adb8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdb8
+Var #740802ADBC|740802adbc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdbc
+Var #740802ADC0|740802adc0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdc0
+Var #740802ADC4|740802adc4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdc4
+Var #740802ADC8|740802adc8|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdc8
+Var #740802ADCC|740802adcc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdcc
+Var #740802ADD0|740802add0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdd0
+Var #740802ADD4|740802add4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdd4
+Var #740802ADD8|740802add8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdd8
+Var #740802ADDC|740802addc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bddc
+Var #740802ADE0|740802ade0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bde0
+Var #740802ADE4|740802ade4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bde4
+Var #740802ADE8|740802ade8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bde8
+Var #740802ADEC|740802adec|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdec
+Var #740802ADF0|740802adf0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdf0
+Var #740802ADF4|740802adf4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdf4
+Var #740802ADF8|740802adf8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdf8
+Var #740802ADFC|740802adfc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bdfc
+Var #740802AE00|740802ae00|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be00
+Var #740802AE04|740802ae04|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be04
+Var #740802AE08|740802ae08|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be08
+Var #740802AE0C|740802ae0c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be0c
+Var #740802AE10|740802ae10|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be10
+Var #740802AE14|740802ae14|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be14
+Var #740802AE18|740802ae18|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be18
+Var #740802AE1C|740802ae1c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be1c
+Var #740802AE20|740802ae20|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be20
+Var #740802AE24|740802ae24|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be24
+Var #740802AE28|740802ae28|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be28
+Var #740802AE2C|740802ae2c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be2c
+Var #740802AE30|740802ae30|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be30
+Var #740802AE34|740802ae34|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be34
+Var #740802AE38|740802ae38|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be38
+Var #740802AE3C|740802ae3c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be3c
+Var #740802AE40|740802ae40|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be40
+Var #740802AE44|740802ae44|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be44
+Var #740802AE48|740802ae48|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be48
+Var #740802AE4C|740802ae4c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be4c
+Var #740802AE50|740802ae50|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be50
+Var #740802AE54|740802ae54|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be54
+Var #740802AE58|740802ae58|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be58
+Var #740802AE5C|740802ae5c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be5c
+Var #740802AE60|740802ae60|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be60
+Var #740802AE64|740802ae64|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be64
+Var #740802AE68|740802ae68|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be68
+Var #740802AE6C|740802ae6c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be6c
+Var #740802AE70|740802ae70|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be70
+Var #740802AE74|740802ae74|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be74
+Var #740802AE78|740802ae78|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be78
+Var #740802AE7C|740802ae7c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be7c
+Var #740802AE80|740802ae80|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be80
+Var #740802AE84|740802ae84|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be84
+Var #740802AE88|740802ae88|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be88
+Var #740802AE8C|740802ae8c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be8c
+Var #740802AE90|740802ae90|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be90
+Var #740802AE94|740802ae94|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be94
+Var #740802AE98|740802ae98|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be98
+Var #740802AE9C|740802ae9c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21be9c
+Var #740802AEA0|740802aea0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bea0
+Var #740802AEA4|740802aea4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bea4
+Var #740802AEA8|740802aea8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bea8
+Var #740802AEAC|740802aeac|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21beac
+Var #740802AEB0|740802aeb0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21beb0
+Var #740802AEB4|740802aeb4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21beb4
+Var #740802AEB8|740802aeb8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21beb8
+Var #740802AEBC|740802aebc|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bebc
+Var #740802AEC0|740802aec0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bec0
+Var #740802AEC4|740802aec4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bec4
+Var #740802AEC8|740802aec8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bec8
+Var #740802AECC|740802aecc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21becc
+Var #740802AED0|740802aed0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bed0
+Var #740802AED4|740802aed4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bed4
+Var #740802AED8|740802aed8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bed8
+Var #740802AEDC|740802aedc|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bedc
+Var #740802AEE0|740802aee0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bee0
+Var #740802AEE4|740802aee4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bee4
+Var #740802AEE8|740802aee8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bee8
+Var #740802AEEC|740802aeec|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21beec
+Var #740802AEF0|740802aef0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bef0
+Var #740802AEF4|740802aef4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bef4
+Var #740802AEF8|740802aef8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bef8
+Var #740802AEFC|740802aefc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21befc
+Var #740802AF00|740802af00|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf00
+Var #740802AF04|740802af04|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf04
+Var #740802AF08|740802af08|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf08
+Var #740802AF0C|740802af0c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf0c
+Var #740802AF10|740802af10|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf10
+Var #740802AF14|740802af14|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf14
+Var #740802AF18|740802af18|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf18
+Var #740802AF1C|740802af1c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf1c
+Var #740802AF20|740802af20|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf20
+Var #740802AF24|740802af24|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf24
+Var #740802AF28|740802af28|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf28
+Var #740802AF2C|740802af2c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf2c
+Var #740802AF30|740802af30|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf30
+Var #740802AF34|740802af34|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf34
+Var #740802AF38|740802af38|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf38
+Var #740802AF3C|740802af3c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf3c
+Var #740802AF40|740802af40|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf40
+Var #740802AF44|740802af44|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf44
+Var #740802AF48|740802af48|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf48
+Var #740802AF4C|740802af4c|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf4c
+Var #740802AF50|740802af50|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf50
+Var #740802AF54|740802af54|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf54
+Var #740802AF58|740802af58|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf58
+Var #740802AF5C|740802af5c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf5c
+Var #740802AF60|740802af60|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf60
+Var #740802AF64|740802af64|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf64
+Var #740802AF68|740802af68|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf68
+Var #740802AF6C|740802af6c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf6c
+Var #740802AF70|740802af70|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf70
+Var #740802AF74|740802af74|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf74
+Var #740802AF78|740802af78|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf78
+Var #740802AF7C|740802af7c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf7c
+Var #740802AF80|740802af80|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf80
+Var #740802AF84|740802af84|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf84
+Var #740802AF88|740802af88|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf88
+Var #740802AF8C|740802af8c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf8c
+Var #740802AF90|740802af90|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf90
+Var #740802AF94|740802af94|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf94
+Var #740802AF98|740802af98|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf98
+Var #740802AF9C|740802af9c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bf9c
+Var #740802AFA0|740802afa0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfa0
+Var #740802AFA4|740802afa4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfa4
+Var #740802AFA8|740802afa8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfa8
+Var #740802AFAC|740802afac|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfac
+Var #740802AFB0|740802afb0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfb0
+Var #740802AFB4|740802afb4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfb4
+Var #740802AFB8|740802afb8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfb8
+Var #740802AFBC|740802afbc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfbc
+Var #740802AFC0|740802afc0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfc0
+Var #740802AFC4|740802afc4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfc4
+Var #740802AFC8|740802afc8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfc8
+Var #740802AFCC|740802afcc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfcc
+Var #740802AFD0|740802afd0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfd0
+Var #740802AFD4|740802afd4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfd4
+Var #740802AFD8|740802afd8|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfd8
+Var #740802AFDC|740802afdc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfdc
+Var #740802AFE0|740802afe0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfe0
+Var #740802AFE4|740802afe4|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfe4
+Var #740802AFE8|740802afe8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfe8
+Var #740802AFEC|740802afec|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bfec
+Var #740802AFF0|740802aff0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bff0
+Var #740802AFF4|740802aff4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bff4
+Var #740802AFF8|740802aff8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bff8
+Var #740802AFFC|740802affc|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21bffc
+Var #740802B000|740802b000|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c000
+Var #740802B004|740802b004|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c004
+Var #740802B008|740802b008|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c008
+Var #740802B00C|740802b00c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c00c
+Var #740802B010|740802b010|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c010
+Var #740802B014|740802b014|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c014
+Var #740802B018|740802b018|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c018
+Var #740802B01C|740802b01c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c01c
+Var #740802B020|740802b020|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c020
+Var #740802B024|740802b024|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c024
+Var #740802B028|740802b028|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c028
+Var #740802B02C|740802b02c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c02c
+Var #740802B030|740802b030|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c030
+Var #740802B034|740802b034|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c034
+Var #740802B038|740802b038|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c038
+Var #740802B03C|740802b03c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c03c
+Var #740802B040|740802b040|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c040
+Var #740802B044|740802b044|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c044
+Var #740802B048|740802b048|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c048
+Var #740802B04C|740802b04c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c04c
+Var #740802B050|740802b050|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c050
+Var #740802B054|740802b054|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c054
+Var #740802B058|740802b058|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c058
+Var #740802B05C|740802b05c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c05c
+Var #740802B060|740802b060|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c060
+Var #740802B064|740802b064|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c064
+Var #740802B068|740802b068|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c068
+Var #740802B06C|740802b06c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c06c
+Var #740802B070|740802b070|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c070
+Var #740802B074|740802b074|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c074
+Var #740802B078|740802b078|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c078
+Var #740802B07C|740802b07c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c07c
+Var #740802B080|740802b080|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c080
+Var #740802B084|740802b084|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c084
+Var #740802B088|740802b088|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c088
+Var #740802B08C|740802b08c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c08c
+Var #740802B090|740802b090|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c090
+Var #740802B094|740802b094|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c094
+Var #740802B098|740802b098|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c098
+Var #740802B09C|740802b09c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c09c
+Var #740802B0A0|740802b0a0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0a0
+Var #740802B0A4|740802b0a4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0a4
+Var #740802B0A8|740802b0a8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0a8
+Var #740802B0AC|740802b0ac|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0ac
+Var #740802B0B0|740802b0b0|4|1|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0b0
+Var #740802B0B4|740802b0b4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0b4
+Var #740802B0B8|740802b0b8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0b8
+Var #740802B0BC|740802b0bc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0bc
+Var #740802B0C0|740802b0c0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0c0
+Var #740802B0C4|740802b0c4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0c4
+Var #740802B0C8|740802b0c8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0c8
+Var #740802B0CC|740802b0cc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0cc
+Var #740802B0D0|740802b0d0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0d0
+Var #740802B0D4|740802b0d4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0d4
+Var #740802B0D8|740802b0d8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0d8
+Var #740802B0DC|740802b0dc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0dc
+Var #740802B0E0|740802b0e0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0e0
+Var #740802B0E4|740802b0e4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0e4
+Var #740802B0E8|740802b0e8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0e8
+Var #740802B0EC|740802b0ec|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0ec
+Var #740802B0F0|740802b0f0|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0f0
+Var #740802B0F4|740802b0f4|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0f4
+Var #740802B0F8|740802b0f8|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0f8
+Var #740802B0FC|740802b0fc|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c0fc
+Var #740802B100|740802b100|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c100
+Var #740802B104|740802b104|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c104
+Var #740802B108|740802b108|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c108
+Var #740802B10C|740802b10c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c10c
+Var #740802B110|740802b110|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c110
+Var #740802B114|740802b114|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c114
+Var #740802B118|740802b118|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c118
+Var #740802B11C|740802b11c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c11c
+Var #740802B120|740802b120|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c120
+Var #740802B124|740802b124|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c124
+Var #740802B128|740802b128|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c128
+Var #740802B12C|740802b12c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c12c
+Var #740802B130|740802b130|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c130
+Var #740802B134|740802b134|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c134
+Var #740802B138|740802b138|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c138
+Var #740802B13C|740802b13c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c13c
+Var #740802B140|740802b140|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c140
+Var #740802B144|740802b144|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c144
+Var #740802B148|740802b148|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c148
+Var #740802B14C|740802b14c|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c14c
+Var #740802B150|740802b150|4|0|0|0|0|0|rw-p|/data/app/~~CEpzcTgzLhnPsxFZEwNn0A==/jp.co.ponos.battlecatskr-_ERUnC2k8RAIp7PAI2_1Ig==/lib/arm64/libnative-lib.so:bss|21c150
+]])
 
 io.open("/sdcard/doc.txt","w"):write([[
 1477
@@ -718,7 +1320,7 @@ local menu= gg.choice({
 "냥코 클럽 시간 조작",
 "티켓 개수 조작",
 "전투 즉시 승리",
-"캣츠아이 개수 조작 (업데이트중)",
+"냥코 3단 진화기",
 "스크립트 종료"}, nil, ([[현재 최신버전입니다.]]))
 if menu == 1 then MENU2() end
 if menu == 2 then MENU3() end
@@ -733,57 +1335,22 @@ if menu == 10 then All() end
 if menu == 11 then Club() end
 if menu == 12 then Ticket() end
 if menu == 13 then T4() end
-if menu == 14 then CatEye() end
+if menu == 14 then CatUp() end
 if menu == 15 then T5() end
 HOMEDM=-1
 end
 
-function CatEye()
-harpp = gg.prompt({'캣츠아이 (EX) ', '캣츠아이 (레어) ', '캣츠아이 (슈퍼 레어)', '캣츠아이 (울트라 슈퍼 레어)', '캣츠아이 (레전드 레어)'},
-{[1]='0 이상의 값 (빈칸 안됨)', [2]='0 이상의 값 (빈칸 안됨)', [3]='0 이상의 값 (빈칸 안됨)', [4]='0 이상의 값 (빈칸 안됨)', [5]='0 이상의 값 (빈칸 안됨)'})
+function CatUp()
+harpp = gg.prompt({'3단 진화할 캐릭터의 유닛 코드를 입력해주세요 (한번에 한 마리만)'}, nil, {'number'})
 if harpp == nil then
 else
-gg.setRanges(gg.REGION_CODE_APP)
-gg.clearList()
-gg.clearResults()
-gg.searchNumber("1,179,403,647;65,794;11,993,091;736,784;64;8,342,360;3,670,080:53", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1,179,403,647", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.processPause()
-local t = gg.getResults(7) 
-gg.addListItems(t)
-local t3 = {} 
-for i, v in ipairs(t) do
-	table.insert(t3, {address=v.address+0xB1ED24,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
-	table.insert(t3, {address=v.address+0xB1ED28,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0xB1ED2C,flags=gg.TYPE_DWORD,value=harpp[2],freeze=false})
-	table.insert(t3, {address=v.address+0xB1ED30,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0xB1ED34,flags=gg.TYPE_DWORD,value=harpp[3],freeze=false})
-	table.insert(t3, {address=v.address+0xB1ED38,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0xB1ED3C,flags=gg.TYPE_DWORD,value=harpp[4],freeze=false})
-	table.insert(t3, {address=v.address+0xB1ED40,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0xB1ED44,flags=gg.TYPE_DWORD,value=harpp[5],freeze=false})
-	table.insert(t3, {address=v.address+0xB1ED48,flags=gg.TYPE_DWORD,value=0,freeze=false})
-end
-gg.addListItems(t3)
-revert = gg.getListItems()
-gg.setValues(t3)
-gg.processResume()
-gg.toast("적용이 완료되었습니다.")
-end
-end
-
-function REMOVER()
-harpp = gg.prompt({'삭제할 캐릭터의 유닛 코드를 입력해주세요 (한번에 한 마리만)'}, nil, {'number'})
-if harpp == nil then
-else
-gg.loadList("/sdcard/doc.txt")
-gg.loadResults(gg.getListItems("/sdcard/doc.txt"))
+gg.loadList("/sdcard/to3.txt")
+gg.loadResults(gg.getListItems("/sdcard/to3.txt"))
 local qresult = gg.getResults(999)
 
 gg.addListItems(qresult)
 	_address = qresult[1].address
-	_value = qresult[597].value
-	gg.setValues({{address = _address+4*harpp[1]-4, flags = gg.TYPE_DWORD, value = _value}})
+	gg.setValues({{address = _address+4*harpp[1]-4, flags = gg.TYPE_DWORD, value = 2}})
 gg.toast("적용이 완료되었습니다.")
 gg.clearList()
 gg.clearResults()
