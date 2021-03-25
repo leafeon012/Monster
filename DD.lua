@@ -1316,7 +1316,6 @@ local menu= gg.choice({
 "XP 개수 조작",
 "통조림 개수 조작",
 "아이템 개수 조작",
-"개다래 개수 조작 (지원 종료)",
 "스토리 모드 올클리어",
 "냥코 클럽 시간 조작",
 "티켓 개수 조작",
@@ -1331,13 +1330,12 @@ if menu == 5 then Image() end
 if menu == 6 then T1() end
 if menu == 7 then T2() end
 if menu == 8 then T3() end
-if menu == 9 then Apple() end
-if menu == 10 then All() end
-if menu == 11 then Club() end
-if menu == 12 then Ticket() end
-if menu == 13 then T4() end
-if menu == 14 then CatUp() end
-if menu == 15 then T5() end
+if menu == 9 then All() end
+if menu == 10 then Club() end
+if menu == 11 then Ticket() end
+if menu == 12 then T4() end
+if menu == 13 then CatUp() end
+if menu == 14 then T5() end
 HOMEDM=-1
 end
 
@@ -1489,11 +1487,6 @@ gg.toast("적용이 완료되었습니다.")
 gg.clearList()
 gg.clearResults()
 end
-end
-
-
-function Apple()
-gg.alert("지원이 종료된 가능입니다.")
 end
 
 function All()
