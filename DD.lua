@@ -4,7 +4,9 @@ ip= gg.makeRequest('https://docterhakase.000webhostapp.com/encs.php').content
 
 if ip == "no"
 then
+gg.setVisible(false)
 gg.alert("접속이 불가능한 아이피입니다.")
+gg.setVisible(true)
 os.exit()
 else 
 return 
