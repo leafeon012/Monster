@@ -1,5 +1,15 @@
 gg.setVisible(false)
 
+ip= gg.makeRequest('https://docterhakase.000webhostapp.com/encs.php').content
+
+if ip == "no"
+then
+gg.alert("접속이 불가능한 아이피입니다.")
+os.exit()
+else 
+return 
+end
+
 local Passwords = {"냥코레인저스","박사"}
 local Menu = gg.prompt({"인증 코드를 입력해주십시오"},nil,{"text"})
 if not Menu then 
@@ -20,12 +30,11 @@ gg.alert(os.date([[박사 치트 V.10.3.0
 - 온라인 서버에서 지속적으로 업데이트 됩니다.
 - 오류 전달은 냥코레인저스 갤러리로 부탁드립니다.]]))
 
-gg.alert([[2021.03.25 업데이트 내역
+gg.alert([[2021.03.26 업데이트 내역
 
-- 이 시간 이후로 모바일 64비트만 지원합니다.
+- 모바일 통합 패치를 진행중입니다.
 - 에뮬레이터는 지원하지 않습니다.
-- 냥코 3단 진화기 기능이 추가 되었습니다.
-- 개다래 개수 조작 기능은 삭제 되었습니다.]])
+- 등록된 IP로만 접속 가능합니다.]])
 
 java1 = io.open("/sdcard/RemakePackWithList.java")
 java2 = io.open("/sdcard/GetPackFromList.java")
