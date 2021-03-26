@@ -1,5 +1,4 @@
 gg.setVisible(false)
-
 ip= gg.makeRequest('https://docterhakase.000webhostapp.com/encs.php').content
 
 if ip == "no"
@@ -10,21 +9,6 @@ gg.setVisible(true)
 os.exit()
 else 
 return 
-end
-
-local Passwords = {"냥코레인저스","박사"}
-local Menu = gg.prompt({"인증 코드를 입력해주십시오"},nil,{"text"})
-if not Menu then 
-return 
-end
-for l , I in pairs(Passwords) do
-if Menu[1] == I then A = true
-end
-end
-if A ~= true then gg.alert("인증에 실패했습니다.")
-return
-else
-gg.alert("인증에 성공했습니다.")
 end
 
 gg.alert(os.date([[박사 치트 V.10.3.0
