@@ -1443,7 +1443,7 @@ for i, v in ipairs(t) do
 	table.insert(t3, {address=v.address+0x983DF0,flags=gg.TYPE_DWORD,value=0,freeze=false})
 	table.insert(t3, {address=v.address+0x983DF4,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
 	table.insert(t3, {address=v.address+0x983DF8,flags=gg.TYPE_DWORD,value=0,freeze=false})
-	table.insert(t3, {address=v.address+0x983EFC,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
+	table.insert(t3, {address=v.address+0x983DFC,flags=gg.TYPE_DWORD,value=harpp[1],freeze=false})
 	table.insert(t3, {address=v.address+0x983E00,flags=gg.TYPE_DWORD,value=0,freeze=false})
     
 end
