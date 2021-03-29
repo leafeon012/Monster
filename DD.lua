@@ -17,11 +17,9 @@ gg.alert(os.date([[박사 치트 V.10.3.0
 - 온라인 서버에서 지속적으로 업데이트 됩니다.
 - 오류 전달은 냥코레인저스 갤러리로 부탁드립니다.]]))
 
-gg.alert([[2021.03.26 업데이트 내역
+gg.alert([[2021.03.29 업데이트 내역
 
-- 모바일 통합 패치가 완료 되었습니다.
-- 에뮬레이터는 지원하지 않습니다.
-- 등록된 IP로만 접속 가능합니다.]])
+- 레어 뽑기 확률 조작 시리즈가 변경 되었습니다.]])
 
 java1 = io.open("/sdcard/RemakePackWithList.java")
 java2 = io.open("/sdcard/GetPackFromList.java")
@@ -1319,7 +1317,7 @@ local menu= gg.choice({
 "냥코 3단 진화기",
 "스크립트 종료"}, nil, ([[현재 최신버전입니다.]]))
 if menu == 1 then MENU2() end
-if menu == 2 then MENU3() end
+if menu == 2 then Close() end
 if menu == 3 then MAKER() end
 if menu == 4 then REMOVER() end
 if menu == 5 then Image() end
@@ -1333,6 +1331,10 @@ if menu == 12 then T4() end
 if menu == 13 then CatUp() end
 if menu == 14 then T5() end
 HOMEDM=-1
+end
+
+function Close()
+gg.alert("뽑기 기간이 아닙니다.")
 end
 
 function CatUp()
@@ -1603,7 +1605,7 @@ menu1= gg.choice({
 "Only Ultra Super Rare",
 "Only Legend Rare",
 "메인 메뉴로 이동"}, nil, ([[레전드레어가 없는 시리즈에서 Only Legend Rare 기능을 사용하면 고양이만 나옵니다.
-현재 일정은 [ 다크 히어로즈 ] 입니다.]]))
+현재 일정은 [ 걸즈 몬스터즈 ] 입니다.]]))
 if menu1 == 1 then P1() end
 if menu1 == 2 then P2() end
 if menu1 == 3 then P3() end
@@ -1617,7 +1619,7 @@ function P1()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("487;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("506;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local k = gg.getResults(7)
@@ -1642,7 +1644,7 @@ function P2()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("487;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("506;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local k = gg.getResults(7)
@@ -1667,7 +1669,7 @@ function P3()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("487;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("506;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local k = gg.getResults(7)
@@ -1692,7 +1694,7 @@ function P4()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.clearList()
 gg.clearResults()
-gg.searchNumber("487;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("506;150:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.processPause()
 local k = gg.getResults(7)
