@@ -1,5 +1,17 @@
 gg.setVisible(false)
 
+ip= gg.makeRequest('https://docterhakase.000webhostapp.com/encs.php').content
+if ip == "no"
+then
+gg.setVisible(false)
+gg.alert("등록이 되지 않은 아이피입니다.")
+gg.setVisible(true)
+os.exit()
+else
+gg.setVisible(false)
+gg.alert("정상적으로 등록된 아이피입니다.")
+end
+
 VV = gg.VERSION_INT
 if VV == '7500' then
 else
@@ -12,18 +24,6 @@ io.open("/sdcard/New GG.zip","w+"):write(datas):close();
 gg.alert([[다운로드가 완료되었습니다.
 /storage/emulated/0/New GG.zip 파일을 압축 풀고 확인하세요.]])
 os.exit()
-end
-
-ip= gg.makeRequest('https://docterhakase.000webhostapp.com/encs.php').content
-if ip == "no"
-then
-gg.setVisible(false)
-gg.alert("등록이 되지 않은 아이피입니다.")
-gg.setVisible(true)
-os.exit()
-else
-gg.setVisible(false)
-gg.alert("정상적으로 등록된 아이피입니다.")
 end
 
 gg.alert(os.date([[박사 치트 V.10.3.0
