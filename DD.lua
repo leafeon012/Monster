@@ -1,4 +1,9 @@
 gg.setVisible(false)
+
+for i= 1, 1000 do
+gg.clearResults()
+end
+
 ip= gg.makeRequest('https://docterhakase.000webhostapp.com/encs.php').content
 
 if ip == "no"
