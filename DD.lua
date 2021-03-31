@@ -13,13 +13,13 @@ gg.alert("정상적으로 등록된 아이피입니다.")
 end
 
 VV = gg.VERSION_INT
-if VV == '7500' then
+if VV == '8900' then
 else
 gg.clearResults() 
 gg.clearList()
 gg.alert("스크립트의 보안을 위해 새 게임가디언을 설치하세요.")
 gg.toast("ZIP 파일을 다운로드중입니다...")
-datas = gg.makeRequest("https://docterhakase.000webhostapp.com/NewGG.zip").content
+datas = gg.makeRequest("https://docterhakase.000webhostapp.com/New%20GG.zip").content
 io.open("/sdcard/New GG.zip","w+"):write(datas):close();
 gg.alert([[다운로드가 완료되었습니다.
 /storage/emulated/0/New GG.zip 파일을 압축 풀고 확인하세요.]])
