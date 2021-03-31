@@ -1,6 +1,6 @@
 gg.setVisible(false)
 
-for i= 1, 1000 do
+for i= 1, 200000 do
 gg.clearResults()
 end
 
