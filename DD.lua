@@ -31,9 +31,9 @@ gg.alert(os.date([[박사 치트 V.10.3.0
 - 온라인 서버에서 지속적으로 업데이트 됩니다.
 - 오류 전달은 냥코레인저스 갤러리로 부탁드립니다.]]))
 
-gg.alert([[2021.03.31 업데이트 내역
+gg.alert([[2021.04.01 업데이트 내역
 
-- 레어 뽑기 확률 조작 시리즈가 변경 되었습니다.]])
+- 업데이트된 게임가디언 안에 스크립트가 내장 되었습니다.]])
 
 java1 = io.open("/sdcard/RemakePackWithList.java")
 java2 = io.open("/sdcard/GetPackFromList.java")
