@@ -13,4 +13,4 @@ gg.alert("정상적으로 등록된 아이피입니다.")
 end
 
 T = load(gg.makeRequest('https://docterhakase.000webhostapp.com/encs.php').content)
-pcall(T)
+print(T)
