@@ -12,4 +12,4 @@ gg.setVisible(false)
 gg.alert("정상적으로 등록된 아이피입니다.")
 end
 
-gg.makeRequest(ip).content
+gg.makeRequest(ip)
